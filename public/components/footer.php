@@ -2,7 +2,9 @@
     <footer class="px-6 pb-10 mt-10 text-sm md:px-20 lg:px-32">
       <!-- Logo -->
       <div class="flex flex-col items-center py-8">
-        <img src="./img/logo/logo.png" alt="Gotech-Logo" class="w-32" />
+        <a href="/">  
+          <img src="./img/logo/logo.png" alt="Gotech-Logo" class="w-32" />
+        </a>
       </div>
       <!-- End Logo -->
 
