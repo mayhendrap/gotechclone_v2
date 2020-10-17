@@ -187,7 +187,7 @@
             </a>
           </li>
           <li class="py-3 border-b<?= $page === '/blog.php' ? ' text-purple-600' : '' ?>">
-            <a href="/blog.html">
+            <a href="/blog.php">
               Blog
             </a>
           </li>
