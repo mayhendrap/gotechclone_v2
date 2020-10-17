@@ -35,15 +35,7 @@
         </div>
       </div>
       <div>
-        <iframe
-          class="w-full md:w-3/5 md:mx-auto"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/Sv6dMFF_yts"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <iframe class="w-full md:w-3/5 md:mx-auto" width="560" height="315" src="https://www.youtube.com/embed/0YxztO7k-d0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
     <!-- Youtube player -->
