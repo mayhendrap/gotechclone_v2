@@ -86,27 +86,27 @@
           <div class="mt-4">
             <ul class="text-gray-600">
               <li class="mb-6">
-                <a href="#">
+                <a href="/about.php">
                   About
                 </a>
               </li>
               <li class="mb-6">
-                <a href="#">
+                <a href="/product.php">
                   Product
                 </a>
               </li>
               <li class="mb-6">
-                <a href="#">
+                <a href="/portofolio.php">
                   Portfolio
                 </a>
               </li>
               <li class="mb-6">
-                <a href="#">
+                <a href="/career.php">
                   Career
                 </a>
               </li>
               <li class="mb-6">
-                <a href="#">
+                <a href="/blog.php">
                   Blog
                 </a>
               </li>
