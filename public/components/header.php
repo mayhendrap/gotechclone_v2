@@ -56,7 +56,9 @@
       <nav class="container px-6 py-3 md:px-16 lg:px-6 lg:py-6">
         <div class="flex items-center justify-between">
           <div class="md:flex items-center lg:w-full">
+          <a href="/">
             <img src="./img/logo/logo.png" alt="Gotech-Logo" class="w-26" />
+          </a>
             <div class="hidden lg:block ml-20 mr-20">
               <ul class="flex text-sm">
                 <li class="px-4 flex flex-col items-center<?= $page === '/' || $page === '/index.php' ? ' text-purple-600' : '' ?>">
@@ -153,13 +155,40 @@
             </svg>
           </div>
         </div>
-      </nav>
       <div
         :class="{ 'hidden' : open === false }"
-        class="border-t lg:hidden relative md:mr-8"
+        class="border-b mt-8 w-full px-8 lg:hidden"
       >
+      <div class="flex flex-col items-center mb-4">
+        <div class="relative w-full bg-blue-100">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search Here"
+            class="border border-purple-400 w-full rounded pl-4 pr-10 py-2 focus:outline-none"
+          />
+          <svg
+            class="w-6 text-purple-400 absolute top-0 right-0 mx-3 mt-2"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </div>
+        <button type="button" class="btn-header-primary w-full mt-3">
+          Contact Us
+        </button>
+      </div>
         <ul
-          class="z-10 flex flex-col items-end px-8 absolute right-0 w-full bg-white"
+          class="z-10 flex flex-col items-center w-full bg-white"
         >
           <li class="py-3 border-b<?= $page === '/' || $page === '/index.php' ? ' text-purple-600' : '' ?>">
             <a href="/">
@@ -186,12 +215,13 @@
               Career
             </a>
           </li>
-          <li class="py-3 border-b<?= $page === '/blog.php' ? ' text-purple-600' : '' ?>">
+          <li class="py-3 pb-4<?= $page === '/blog.php' ? ' text-purple-600' : '' ?>">
             <a href="/blog.php">
               Blog
             </a>
           </li>
         </ul>
       </div>
+      </nav>
     </header>
     <!-- End Header -->
